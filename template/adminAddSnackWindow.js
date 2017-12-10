@@ -18,7 +18,7 @@ return `
         </div>
 
         <div class="field">
-          <label for="snackDEscription" class="label">Description</label>
+          <label for="snackDescription" class="label">Description</label>
           <div class="control">
             <textarea id="snackDescription" class="textarea" placeholder="What is special about it?"></textarea>
           </div>

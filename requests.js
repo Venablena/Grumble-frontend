@@ -35,7 +35,7 @@ window.Auth = {
       .then(newToken => {
         this.setToken(newToken.data.token)
         Login.success()
-        renderSnacks()
+        //renderSnacks()
       })
       .catch(err => {
         Login.errorMessage(err)

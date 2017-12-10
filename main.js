@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  renderSnacks()
   Login.activateLoginButton()
   Token.setButtonText()
+  init()
 })
 
   // const id = element.id.replace('more', '')
@@ -26,6 +26,15 @@ class Token{
       })
     }
   }
+}
+
+function init(){
+  let user = Token.check()
+  console.log(user)
+  if(user.admin === true) {
+    console.log("admin")
+  }
+  else renderSnacks()
 }
 
 function render(){
