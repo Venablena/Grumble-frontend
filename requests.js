@@ -1,7 +1,7 @@
 // const url = 'http://localhost:3000/api'
 // const authURL = 'http://localhost:3000'
-const herokuURL = 'https://grumble-api.herokuapp.com/api'
-const herokuAuth = 'https://grumble-api.herokuapp.com'
+const herokuURL = 'https://snack-app-api.herokuapp.com/api'
+const herokuAuth = 'https://snack-app-api.herokuapp.com'
 
 window.RequestSnacks = {
   all(){
